@@ -1,0 +1,275 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#4a3428"><meta name="apple-mobile-web-app-capable" content="yes">
+<link rel="manifest" href="manifest.json"><link rel="icon" href="icon.svg"><link rel="apple-touch-icon" href="icon.svg">
+<title>Exam Practice</title>
+<style>
+:root{--bg:#f3eadf;--card:#fffaf4;--bd:#dccbb6;--tx:#3a2a20;--mut:#8a7563;--nv:#4a3428;--pr:#8b5e3c;--prt:#fff;--sel:#f0e0cb;--v:#eadfce;--ok:#4f8a54;--bad:#b5483a;--mk:#8a5fa8}
+@media(prefers-color-scheme:dark){:root{--bg:#1e1611;--card:#2a1f18;--bd:#443429;--tx:#f1e6d8;--mut:#b7a591;--nv:#33241b;--pr:#c08a5c;--prt:#1e1611;--sel:#3d2c20;--v:#3a2d24;--ok:#5aa866;--bad:#d0614f;--mk:#a577c4}}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+body{margin:0;background:var(--bg);color:var(--tx);font:16px/1.5 system-ui,-apple-system,Segoe UI,sans-serif}
+#app{max-width:560px;margin:0 auto;min-height:100vh;padding:0 14px 90px}
+#app.x{max-width:1000px;padding:0 0 130px;background:var(--card)}
+.nl #app{padding-bottom:160px}.nl #app.x{padding-bottom:210px}
+h1{font-size:20px;margin:0 0 12px}h3{margin:14px 0 8px}
+.top{background:var(--nv);color:#f6ebdd;margin:0 -14px 14px;padding:calc(env(safe-area-inset-top,0px) + 20px) 18px 20px;border-radius:0 0 22px 22px}
+.top h1{margin:0;color:#f6ebdd}.top p{margin:2px 0 0;opacity:.75;font-size:14px}
+.card{background:var(--card);border:1px solid var(--bd);border-radius:14px;padding:14px;margin-bottom:12px}
+button,.btn{font:inherit;color:var(--tx);background:var(--card);border:1px solid var(--bd);border-radius:10px;padding:11px 12px;width:100%;margin-top:8px;cursor:pointer;display:block;text-align:center}
+.pri{background:var(--pr);color:var(--prt);border-color:var(--pr);font-weight:600}.bad{background:var(--bad);color:#fff;border-color:var(--bad)}
+.sm{width:auto;margin:0;padding:6px 12px;display:inline-block}
+.gr{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:12px}
+.gr .card{margin:0;text-align:center;font-size:13px;color:var(--mut)}.gr b{font-size:22px;display:block;color:var(--tx)}
+.mut{color:var(--mut);font-size:14px}.bar{display:flex;justify-content:space-between;align-items:center;gap:10px}
+.ic{font-size:26px;flex:none;width:46px;height:46px;border-radius:12px;background:var(--sel);display:flex;align-items:center;justify-content:center}
+.chip{display:inline-block;font-size:12px;background:var(--sel);border-radius:99px;padding:2px 10px;margin:4px 4px 0 0}
+#nav{position:fixed;bottom:0;left:0;right:0;background:var(--card);border-top:1px solid var(--bd);padding-bottom:env(safe-area-inset-bottom,0px)}
+.nl #nav{padding-bottom:calc(env(safe-area-inset-bottom,0px) + 58px)}
+#nav div{display:flex;max-width:560px;margin:auto}
+#nav button{flex:1;border:0;border-radius:0;margin:0;font-size:13px;background:none;color:var(--mut)}#nav .on{color:var(--pr);font-weight:700;box-shadow:inset 0 3px var(--pr)}
+.tag{font-size:12px;padding:2px 8px;border-radius:99px;background:var(--sel)}
+.barx{height:8px;background:var(--v);border-radius:4px;overflow:hidden;margin-top:4px}.barx i{display:block;height:100%;background:var(--pr)}
+.big{font-size:42px;font-weight:800;text-align:center}
+.hd{background:var(--nv);color:#f6ebdd;display:flex;justify-content:space-between;align-items:center;padding:calc(env(safe-area-inset-top,0px) + 10px) 14px 10px;gap:10px}
+.hd small{display:block;opacity:.7;font-size:12px}
+.tbox{background:var(--card);color:var(--tx);border-radius:8px;padding:3px 12px;text-align:center;font-size:11px;line-height:1.2}.tbox b{font-size:19px;font-variant-numeric:tabular-nums}
+.sub{display:flex;justify-content:space-between;align-items:center;gap:8px;background:var(--sel);padding:8px 14px;font-size:14px}
+.sub .sm{background:var(--pr);color:var(--prt);border-color:var(--pr)}
+.pl{color:var(--ok)}.mn{color:var(--bad)}
+.exam{display:grid;grid-template-columns:1fr}.qp{padding:16px 14px}
+.qt{font-size:18px;font-weight:600;margin-bottom:16px;white-space:pre-wrap}
+.op{display:flex;gap:12px;align-items:flex-start;text-align:left;padding:12px;margin:0 0 10px;border:1.5px solid var(--bd);border-radius:10px;width:100%}
+.op i{flex:none;width:22px;height:22px;border:2px solid var(--mut);border-radius:50%;margin-top:1px}
+.op.sel{border-color:var(--pr);background:var(--sel)}.op.sel i{border-color:var(--pr);background:radial-gradient(var(--pr) 45%,transparent 50%)}
+.pal{display:none;position:fixed;inset:0;background:var(--card);z-index:8;overflow:auto;padding:14px;padding-top:calc(env(safe-area-inset-top,0px) + 14px)}
+.pal.open{display:block}
+.pg{display:grid;grid-template-columns:repeat(5,1fr);gap:8px;margin:10px 0}
+.pg button{margin:0;padding:9px 0;font-weight:600;border-radius:8px}
+.p-v{background:var(--v)}.p-n{background:var(--bad);color:#fff;border-color:var(--bad)}.p-a{background:var(--ok);color:#fff;border-color:var(--ok)}
+.p-m{background:var(--mk);color:#fff;border-color:var(--mk);border-radius:50%!important}.p-am{background:var(--mk);color:#fff;border-radius:50%!important;box-shadow:0 0 0 3px var(--ok) inset}
+.cur{outline:3px solid #e0a040;outline-offset:1px}
+.lg{display:grid;grid-template-columns:1fr 1fr;gap:6px;font-size:13px}.lg span{display:flex;align-items:center;gap:6px}.lg em{font-style:normal;min-width:26px;text-align:center;border-radius:5px;padding:2px 0;border:1px solid var(--bd)}
+.ft{position:fixed;bottom:0;left:0;right:0;background:var(--card);border-top:1px solid var(--bd);padding:8px 10px calc(8px + env(safe-area-inset-bottom,0px));display:grid;grid-template-columns:1fr 1fr;gap:8px;max-width:1000px;margin:auto}
+.nl .ft{padding-bottom:calc(8px + env(safe-area-inset-bottom,0px) + 58px)}
+.ft button{margin:0;padding:10px 6px;font-size:14px}.mr{color:var(--mk);border-color:var(--mk)!important}.sv{background:var(--ok);color:#fff;border-color:var(--ok)}
+.ov{position:fixed;inset:0;background:#000a;display:flex;align-items:center;justify-content:center;padding:20px;z-index:20}.ov .card{max-width:400px;width:100%;margin:0}
+input[type=text],input[type=email],input[type=password]{width:100%;padding:12px;border:1px solid var(--bd);border-radius:10px;background:var(--card);color:var(--tx);font:inherit}
+#nav button{font-size:12px!important;line-height:1.3;padding:8px 2px!important}
+table{width:100%;border-collapse:collapse;margin:8px 0}td{padding:6px 4px;border-bottom:1px solid var(--bd)}td+td{text-align:right;font-weight:700}
+@media(min-width:900px){.exam{grid-template-columns:1fr 300px}.pal{display:block;position:static;border-left:1px solid var(--bd);padding:14px}.ptog,.pclose{display:none!important}.ft{grid-template-columns:repeat(4,1fr)}}
+</style></head><body>
+<div id="app"></div><div id="nav"></div><div id="dlg"></div>
+<script src="config.js"></script>
+<script>
+if(/netlify\.app$/.test(location.hostname))document.body.classList.add('nl'); // leaves room for Netlify's badge
+const $=s=>document.querySelector(s),LS=localStorage;
+const MODES={chapter:{n:'Chapter Test'},mock:{n:'Practice Mock Test',per:45},exam:{n:'Exam Level Test',per:60}};
+let Q=[],byId={},ERR=[],NF=0,tab='home',T=null,P=null,V=null,tick,SYNC='',SYNCING=false,TOK={};
+let PR=JSON.parse(LS.qp_p||'[]'),CUR=PR.some(p=>p.id==LS.qp_cur)?LS.qp_cur:'',W=false;
+const me=()=>PR.find(p=>p.id==CUR)||{name:''};
+const H=()=>JSON.parse(LS['qp_h_'+CUR]||'[]'),saveH=h=>LS['qp_h_'+CUR]=JSON.stringify(h);
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const shuf=a=>{a=[...a];for(let i=a.length;i>1;){const j=Math.random()*i--|0;[a[i],a[j]]=[a[j],a[i]]}return a};
+const fmt=s=>{s=Math.max(0,s|0);const h=s/3600|0,m=s%3600/60|0;return(h?h+':'+String(m).padStart(2,'0'):m)+':'+String(s%60).padStart(2,'0')};
+const when=id=>new Date(id).toLocaleString([],{dateStyle:'medium',timeStyle:'short'});
+const dur=(m,n)=>m=='chapter'?600:n*MODES[m].per;
+const title=x=>MODES[x.mode].n+(x.mode=='chapter'?' · Ch '+x.ch:'');
+const pct=x=>Math.round(Math.max(0,x.score)/x.max*100);
+
+/* ---- data: accepts a plain array, loose {..},{..} text, or {chapter_name,chapter_no,...,questions:[...]} ---- */
+function norm(o){
+  if(Array.isArray(o))return o.flatMap(norm);
+  if(o&&Array.isArray(o.questions))return o.questions.map(q=>({chapter_name:o.chapter_name,chapter_no:o.chapter_no,...q}));
+  return o&&o.question?[o]:[]}
+function parse(t){let s=t.trim().replace(/,\s*$/,'');
+  if(s[0]=='{'){try{return norm(JSON.parse(s))}catch(e){s='['+s+']'}}
+  return norm(JSON.parse(s))}
+function add(q){if(!q||!q.question||!q.options)return;const id=q.chapter_no+'|'+q.question;if(byId[id])return;q.id=id;byId[id]=q;Q.push(q)}
+const IMP=()=>JSON.parse(LS.qp_i||'[]');
+async function load(){
+  const ps=[];for(let i=1;i<=60;i++)for(const n of new Set([String(i).padStart(2,'0'),String(i)])){const u=`data/chapter-${n}.json`;
+    ps.push(fetch(u,{cache:'no-cache'}).then(async r=>{if(!r.ok)return;const t=await r.text();if(t.trim()[0]=='<')return;NF++;try{parse(t).forEach(add)}catch(e){ERR.push(u+' has a JSON error: '+e.message)}}).catch(()=>{}))}
+  await Promise.all(ps);
+  try{IMP().forEach(add)}catch(e){}
+}
+async function imp(inp){const m={};IMP().forEach(q=>m[q.chapter_no+'|'+q.question]=q);const bad=[];
+  for(const f of inp.files){try{parse(await f.text()).forEach(q=>q.question&&(m[q.chapter_no+'|'+q.question]=q))}catch(e){bad.push(f.name+': '+e.message)}}
+  if(bad.length)alert('Could not read:\n'+bad.join('\n'));LS.qp_i=JSON.stringify(Object.values(m));location.reload()}
+function chs(){const m={};Q.forEach(q=>(m[q.chapter_no]??={no:q.chapter_no,name:q.chapter_name,qs:[]}).qs.push(q));return Object.values(m).sort((a,b)=>a.no-b.no)}
+async function reset(){if(!confirm('Delete ALL test history, scores and progress for this student? This cannot be undone.'))return;
+  const p=me();LS.removeItem('qp_h_'+CUR);LS.removeItem('qp_a');
+  if(p.rt){try{const{docs,h}=await rdocs(p);for(const d of docs)await fetch('https://firestore.googleapis.com/v1/'+d.name,{method:'DELETE',headers:h})}catch(e){alert('Local data cleared, but the cloud copy could not be deleted: '+e.message)}}
+  R()}
+function clearImp(){if(confirm('Remove all questions imported on this device? (Questions from the data folder stay.)')){LS.removeItem('qp_i');location.reload()}}
+
+/* ---- cloud sync (Firebase REST; optional, set up in config.js) ---- */
+const CFG=window.QP_CFG||{},CLOUD=!!(CFG.apiKey&&CFG.projectId);
+const FS=`https://firestore.googleapis.com/v1/projects/${CFG.projectId}/databases/(default)/documents`;
+async function auth(kind,b){const r=await fetch(`https://identitytoolkit.googleapis.com/v1/accounts:${kind}?key=${CFG.apiKey}`,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({...b,returnSecureToken:true})}),j=await r.json();
+  if(!r.ok){const m=(j.error&&j.error.message)||'';throw new Error(/API_KEY/.test(m)?'The API key in config.js is not valid.':/EMAIL_EXISTS/.test(m)?'That username is already taken.':/WEAK_PASSWORD/.test(m)?'Password must be at least 6 characters.':/OPERATION_NOT_ALLOWED/.test(m)?'Email/Password sign-in is not enabled in Firebase.':/INVALID|NOT_FOUND|PASSWORD/.test(m)?'Wrong username or password.':m||'Could not connect.')}return j}
+async function token(p){const c=TOK[p.id];if(c&&c.exp>Date.now()+60000)return c.id;
+  const r=await fetch(`https://securetoken.googleapis.com/v1/token?key=${CFG.apiKey}`,{method:'POST',headers:{'Content-Type':'application/x-www-form-urlencoded'},body:'grant_type=refresh_token&refresh_token='+encodeURIComponent(p.rt)}),j=await r.json();
+  if(!r.ok)throw new Error('Session expired. Please sign in again.');TOK[p.id]={id:j.id_token,exp:Date.now()+j.expires_in*1000};p.rt=j.refresh_token;savePR();return j.id_token}
+async function rdocs(p){const h={Authorization:'Bearer '+await token(p)};let docs=[],pt='';
+  do{const r=await fetch(`${FS}/users/${p.id}/attempts?pageSize=300${pt?'&pageToken='+pt:''}`,{headers:h});if(!r.ok)throw new Error('Cloud error '+r.status+' (check the Firestore rules)');const j=await r.json();docs=docs.concat(j.documents||[]);pt=j.nextPageToken||''}while(pt);
+  return{docs,h}}
+async function sync(show){const p=me();if(!p.rt||SYNCING)return;SYNCING=true;SYNC='Syncing…';if(show&&!T)R();
+  try{const{docs,h}=await rdocs(p),k='qp_h_'+p.id,loc=JSON.parse(LS[k]||'[]'),have=new Set(loc.map(x=>String(x.id))),remote=new Set();
+    docs.forEach(d=>{try{const x=JSON.parse(d.fields.d.stringValue);remote.add(String(x.id));if(!have.has(String(x.id)))loc.push(x)}catch(e){}});
+    for(const x of loc)if(!remote.has(String(x.id)))await fetch(`${FS}/users/${p.id}/attempts/${x.id}`,{method:'PATCH',headers:{...h,'Content-Type':'application/json'},body:JSON.stringify({fields:{d:{stringValue:JSON.stringify(x)}}})});
+    loc.sort((a,b)=>a.id-b.id);LS[k]=JSON.stringify(loc);SYNC='Last synced '+new Date().toLocaleTimeString([],{timeStyle:'short'})}
+  catch(e){SYNC='Not synced: '+e.message}
+  SYNCING=false;if(!T)R()}
+async function cloudLogin(create){
+  const u=$('#cu').value.trim(),pw=$('#cp').value,em=u.toLowerCase().replace(/[^a-z0-9._-]/g,'');
+  if(!em||!pw)return alert('Enter your username (letters and numbers) and a password.');
+  try{const j=await auth(create?'signUp':'signInWithPassword',{email:em+'@students.app',password:pw}),old=CUR&&!me().rt?CUR:'';
+    let p=PR.find(x=>x.id==j.localId);if(!p){p={id:j.localId,name:u};PR.push(p)}
+    p.rt=j.refreshToken;TOK[p.id]={id:j.idToken,exp:Date.now()+j.expiresIn*1000};
+    if(LS.qp_h&&PR.length==1){LS['qp_h_'+p.id]=LS.qp_h;LS.removeItem('qp_h')}
+    if(create&&old&&LS['qp_h_'+old]&&confirm('Move the results of "'+PR.find(x=>x.id==old).name+'" on this device into this new account?')){LS['qp_h_'+p.id]=LS['qp_h_'+old];LS.removeItem('qp_h_'+old);PR=PR.filter(x=>x.id!=old)}
+    CUR=p.id;W=false;tab='home';savePR();R();sync(true)}
+  catch(e){alert(e.message)}}
+const cloudCard=()=>`<div class=card><b>☁️ Cloud account</b><p class=mut style="margin:4px 0 8px">Use your results on any phone or computer. Create an account once, then sign in anywhere.</p><input type=text id=cu placeholder="Username" autocapitalize=none maxlength=30 style="margin-bottom:8px"><input type=password id=cp placeholder="Password (6+ characters)"><div style="display:flex;gap:8px"><button class=pri onclick="cloudLogin(false)">Sign in</button><button onclick="cloudLogin(true)">Create account</button></div></div>`;
+function syncCard(){if(!CLOUD)return'';const p=me();
+  return p.rt?`<div class=card><b>☁️ Cloud sync is on</b><p class=mut>Your results are saved online. Sign in with the same username on any device to see them.<br>${esc(SYNC)}</p><button class=pri onclick="sync(true)">Sync now</button></div>`
+  :`<div class=card><b>☁️ Not synced</b><p class=mut>${esc(p.name)} is saved on this device only. Tap 👤 at the top, then sign in or create a cloud account to use other devices.</p></div>`}
+
+/* ---- students ---- */
+const savePR=()=>{LS.qp_p=JSON.stringify(PR);LS.qp_cur=CUR};
+function addP(){const name=$('#nm').value.trim();if(!name)return alert('Please type a name.');
+  if(PR.some(p=>p.name.toLowerCase()==name.toLowerCase()))return alert('That name already exists on this device.');
+  const id='s'+Date.now().toString(36);if(LS.qp_h&&!PR.length){LS['qp_h_'+id]=LS.qp_h;LS.removeItem('qp_h')}
+  PR.push({id,name});CUR=id;W=false;tab='home';savePR();R()}
+function sw(id){CUR=id;W=false;tab='home';savePR();R()}
+function delP(id){const p=PR.find(x=>x.id==id);if(!confirm(p.rt?'Remove '+p.name+' from this device? Their results stay saved in the cloud.':'Delete '+p.name+' and all their results?'))return;
+  LS.removeItem('qp_h_'+id);PR=PR.filter(x=>x.id!=id);if(CUR==id)CUR=PR[0]?PR[0].id:'';savePR();R()}
+function whoV(){return`<div class=top><h1>${CUR?'Switch student':'Welcome'}</h1><p>${CUR?'Each student has separate results':'Choose your name or add a new student'}</p></div>`
+  +PR.map(p=>`<div class=card><div class=bar><div class=ic>🎓</div><b style="flex:1">${esc(p.name)}${p.rt?' ☁️':''}</b>${p.id==CUR?'<span class=tag>current</span>':''}</div><div style="display:flex;gap:8px"><button class=pri onclick="sw('${p.id}')">Open</button><button onclick="delP('${p.id}')">${p.rt?'Sign out':'Delete'}</button></div></div>`).join('')
+  +(CLOUD?cloudCard():'')+`<div class=card><b>Add a student</b><p class=mut style="margin:4px 0 8px">Type the name and tap Add.</p><input type=text id=nm placeholder="Student name" maxlength=30><button class=pri onclick=addP()>Add &amp; start</button></div>`
+  +(CUR?'<button onclick="W=false;R()">← Back</button>':'')}
+async function share(){const S=stats(),r={app:'qp',student:me().name,tests:S.h.map(({id,mode,ch,st,n,c,w,sk,score,max,used})=>({id,mode,ch,st,n,c,w,sk,score,max,used}))};
+  const f=new File([JSON.stringify(r)],me().name.replace(/\W+/g,'_')+'_report.json',{type:'application/json'});
+  if(navigator.canShare&&navigator.canShare({files:[f]})){try{await navigator.share({files:[f],title:'Exam report'});return}catch(e){if(e.name=='AbortError')return}}
+  const a=document.createElement('a');a.href=URL.createObjectURL(f);a.download=f.name;a.click()}
+const CLS=()=>JSON.parse(LS.qp_cls||'{}');
+async function impRep(inp){const C=CLS();for(const f of inp.files){try{const r=JSON.parse(await f.text());if(r.app!='qp'||!r.student)throw 0;const s=C[r.student]??={tests:{}};r.tests.forEach(t=>s.tests[t.id]=t)}catch(e){alert(f.name+' is not a valid student report.')}}LS.qp_cls=JSON.stringify(C);R()}
+function clearCls(){if(confirm('Remove all imported student reports? (Students on this device are not affected.)')){LS.removeItem('qp_cls');R()}}
+function clsRows(){const C=CLS();PR.forEach(p=>{const h=JSON.parse(LS['qp_h_'+p.id]||'[]');if(!h.length)return;const s=C[p.name]??={tests:{}};h.forEach(t=>s.tests[t.id]=t)});
+  return Object.entries(C).map(([name,s])=>{const t=Object.values(s.tests),d=t.filter(x=>x.st=='completed'),ps=d.map(pct);
+    return{name,att:t.length,done:d.length,ab:t.length-d.length,avg:ps.length?Math.round(ps.reduce((a,b)=>a+b,0)/ps.length):0,best:ps.length?Math.max(...ps):0,last:Math.max(...t.map(x=>x.id))}}).filter(r=>r.att).sort((a,b)=>b.avg-a.avg||b.done-a.done)}
+function clsV(hd){const rows=clsRows();
+  return hd('Class','Leaderboard · ranked by average score')+`<div class=card><b>Students on other phones</b><p class=mut>Each student opens Dashboard → Send my report and shares the file with you. Import the files here. Students on this device appear automatically.</p><label class="btn pri">Import student report(s)<input type=file accept=".json,application/json" multiple hidden onchange=impRep(this)></label></div>`
+  +(rows.map((r,i)=>`<div class=card><div class=bar><div class=ic style="font-size:20px;font-weight:700">${['🥇','🥈','🥉'][i]||i+1}</div><div style="flex:1"><b>${esc(r.name)}</b><p class=mut style="margin:0">${r.done} completed · ${r.ab} aborted · best ${r.best}%<br>Last test ${when(r.last)}</p></div><div style="text-align:right"><b style="font-size:22px">${r.avg}%</b><br><span class=mut>average</span></div></div></div>`).join('')||'<div class=card>No student results yet.</div>')
+  +(Object.keys(CLS()).length?'<button onclick=clearCls()>Clear imported student reports</button>':'')}
+
+/* ---- test flow ---- */
+function pre(mode,ch){P={mode,ch};R();scrollTo(0,0)}
+function begin(){
+  if(!$('#agree').checked)return alert('Please tick the box to confirm you have read the instructions.');
+  const{mode,ch}=P;let qs;
+  if(mode=='chapter')qs=shuf(Q.filter(q=>q.chapter_no==ch)).slice(0,15);
+  else{const g=chs().map(c=>shuf(c.qs));qs=[];while(qs.length<120&&g.some(a=>a.length))g.forEach(a=>{if(a.length&&qs.length<120)qs.push(a.pop())});qs=shuf(qs)}
+  if(!qs.length)return alert('No questions found.');
+  const d=dur(mode,qs.length),t0=Date.now();P=null;
+  T={mode,ch,ids:qs.map(q=>q.id),ans:{},mk:{},vis:{},i:0,t0,dur:d,end:t0+d*1000,ord:{},pal:false};
+  qs.forEach(q=>T.ord[q.id]=shuf(Object.keys(q.options)));
+  persist();clearInterval(tick);tick=setInterval(upd,1000);R();scrollTo(0,0)}
+const persist=()=>LS.qp_a=JSON.stringify({pid:CUR,mode:T.mode,ch:T.ch,ids:T.ids,ans:T.ans,t0:T.t0,dur:T.dur});
+function upd(){if(!T)return;const r=(T.end-Date.now())/1000,e=$('#tm');if(e){e.textContent=fmt(r);e.style.color=r<60?'var(--bad)':''}if(r<=0)finish('completed')}
+const cur=()=>T.ids[T.i];
+function pick(k){T.ans[cur()]=k;persist();R()}
+function clr(){delete T.ans[cur()];persist();R()}
+function mark(){T.mk[cur()]=1;go(1)}
+function go(d){if(T.i+d>=T.ids.length){if(d>0)return endDlg();R();return}T.i=Math.max(0,T.i+d);R();scrollTo(0,0)}
+function jump(i){T.i=i;T.pal=false;R();scrollTo(0,0)}
+function pal(v){T.pal=v;R()}
+const stat=id=>T.ans[id]&&T.mk[id]?'am':T.mk[id]?'m':T.ans[id]?'a':T.vis[id]?'n':'v';
+const cnt=()=>{const c={a:0,n:0,m:0,am:0,v:0};T.ids.forEach(id=>c[stat(id)]++);return c};
+function endDlg(){const c=cnt();
+  $('#dlg').innerHTML=`<div class=ov><div class=card><h3 style="margin-top:0">Submit test?</h3><table><tr><td>Answered</td><td>${c.a+c.am}</td></tr><tr><td>Not answered</td><td>${c.n}</td></tr><tr><td>Marked for review</td><td>${c.m+c.am}</td></tr><tr><td>Not visited</td><td>${c.v}</td></tr></table><button class=pri onclick="fin('completed')">Submit &amp; see result</button><button onclick="$('#dlg').innerHTML=''">Go back to test</button><button class=bad onclick="if(confirm('Abort? The test will not be scored and cannot be resumed.'))fin('aborted')">Abort test (not scored)</button></div></div>`}
+const fin=s=>{$('#dlg').innerHTML='';finish(s)};
+function finish(st,a){
+  clearInterval(tick);a=a||T;if(!a)return;
+  let c=0,w=0;a.ids.forEach(id=>{const s=a.ans[id];if(s&&byId[id])s==byId[id].correct_answer?c++:w++});
+  const n=a.ids.length,x={id:a.t0,mode:a.mode,ch:a.ch,st,ids:a.ids,ans:a.ans,n,c,w,sk:n-c-w,score:st=='completed'?3*c-w:null,max:3*n,used:Math.min(Date.now()-a.t0,a.dur*1000)/1000};
+  const h=H();h.push(x);saveH(h);LS.removeItem('qp_a');T=null;V=x.id;R();scrollTo(0,0);if(me().rt)sync()}
+
+/* ---- views ---- */
+function stats(){const h=H(),d=h.filter(x=>x.st=='completed'),ch={},seen=new Set();
+  d.forEach(x=>x.ids.forEach(id=>{const q=byId[id];if(!q)return;seen.add(id);const c=ch[q.chapter_no]??={a:0,c:0},s=x.ans[id];if(s){c.a++;if(s==q.correct_answer)c.c++}}));
+  return{h,d,ch,seen}}
+
+function runV(){
+  const q=byId[cur()],id=q.id,n=T.ids.length,sel=T.ans[id],c=cnt();T.vis[id]=1;
+  const L=(cls,k,t)=>`<span><em class="${cls}">${k}</em>${t}</span>`;
+  return`<div class=hd><div><b>${title(T)}</b><small>${esc(q.chapter_name)}</small></div><div class=tbox>Time Left<br><b id=tm></b></div></div>
+  <div class=sub><span><b>Q ${T.i+1}</b> / ${n}</span><span>Marks <b class=pl>+3</b> <b class=mn>−1</b></span><button class="sm ptog" onclick=pal(true)>Palette</button></div>
+  <div class=exam><div class=qp><div class=qt>${esc(q.question)}</div>
+  ${T.ord[id].map((k,j)=>`<button class="op ${sel==k?'sel':''}" onclick="pick('${k}')"><i></i><span>${'ABCD'[j]}. ${esc(q.options[k])}</span></button>`).join('')}</div>
+  <div class="pal ${T.pal?'open':''}"><div class=bar><b>Question Palette</b><button class="sm pclose" onclick=pal(false)>Close ✕</button></div>
+  <div class=lg style="margin-top:10px">${L('p-a',c.a,'Answered')}${L('p-n',c.n,'Not answered')}${L('p-v',c.v,'Not visited')}${L('p-m',c.m,'Marked')}${L('p-am',c.am,'Answered &amp; marked')}</div>
+  <div class=pg>${T.ids.map((x,i)=>`<button class="p-${stat(x)} ${i==T.i?'cur':''}" onclick=jump(${i})>${i+1}</button>`).join('')}</div>
+  <button class=pri onclick=endDlg()>Submit Test</button></div></div>
+  <div class=ft><button class=mr onclick=mark()>Mark for Review &amp; Next</button><button onclick=clr()>Clear Response</button><button onclick=go(-1)>‹ Back</button><button class=sv onclick=go(1)>${T.i==n-1?'Save &amp; Submit':'Save &amp; Next ›'}</button></div>`}
+
+function preV(){const n=P.mode=='chapter'?Math.min(15,Q.filter(q=>q.chapter_no==P.ch).length):Math.min(120,Q.length),d=dur(P.mode,n);
+  return`<div class=top><h1>Instructions</h1><p>${title(P)}</p></div><div class=card><table><tr><td>Questions</td><td>${n}</td></tr><tr><td>Duration</td><td>${fmt(d)}</td></tr><tr><td>Marking</td><td>+3 / −1</td></tr><tr><td>Maximum score</td><td>${3*n}</td></tr></table>
+  <ol class=mut style="padding-left:20px"><li>The clock starts as soon as you press Start and cannot be paused.</li><li>Closing the app or leaving mid-test marks it <b>Aborted</b>. A test can be taken only once.</li><li>When time ends, the test is submitted automatically.</li><li>Answer with Save &amp; Next. Use Mark for Review for questions to revisit. Use Clear Response to remove an answer.</li><li>Unanswered questions score 0. Your score is shown after submission.</li></ol>
+  <label><input type=checkbox id=agree> I have read and understood the instructions.</label><button class=pri onclick=begin()>Start Test</button><button onclick="P=null;R()">Cancel</button></div>`}
+
+function resV(){
+  const x=H().find(h=>h.id==V);if(!x){V=null;return''}
+  let o=`<div class=top><h1>${title(x)}</h1><p>${when(x.id)}</p></div><button class=sm onclick="V=null;R()">← Back</button>`;
+  if(x.st=='aborted')return o+`<div class=card style="margin-top:12px"><b>Aborted</b><p class=mut>This test was ended early and is not scored. ${Object.keys(x.ans).length} of ${x.n} answered.</p></div>`;
+  o+=`<div class=card style="margin-top:12px"><div class=big>${x.score}<span class=mut> / ${x.max}</span></div><p class=mut style="text-align:center;margin:0">Time used ${fmt(x.used)} · Accuracy ${x.c+x.w?Math.round(x.c/(x.c+x.w)*100):0}%</p></div>
+  <div class=gr><div class=card><b style="color:var(--ok)">${x.c}</b>Correct (+3)</div><div class=card><b style="color:var(--bad)">${x.w}</b>Wrong (−1)</div><div class=card><b>${x.sk}</b>Skipped</div><div class=card><b>${pct(x)}%</b>Score</div></div><h3>Review</h3>`;
+  const tint=c=>`border-color:var(--${c});background:color-mix(in srgb,var(--${c}) 18%,var(--card))`;
+  return o+x.ids.map((id,i)=>{const q=byId[id];if(!q)return'';const s=x.ans[id];
+    return`<div class=card><p><b>${i+1}. ${esc(q.question)}</b></p>${Object.keys(q.options).map(k=>`<div class=op style="padding:8px 12px;margin:6px 0;${k==q.correct_answer?tint('ok'):k==s?tint('bad'):''}">${k}. ${esc(q.options[k])}${k==s?' <span class=mut>(your answer)</span>':''}</div>`).join('')}<p class=mut>${s?'':'Not answered. '}${esc(q.explanation||'')}</p></div>`}).join('')}
+
+function chart(d){if(d.length<2)return'<p class=mut>Complete 2 or more tests to see your trend.</p>';
+  const p=d.slice(-15).map((x,i,a)=>[10+i*280/(a.length-1),90-pct(x)*.8]);
+  return`<svg viewBox="0 0 300 100" width="100%"><polyline fill="none" stroke="var(--pr)" stroke-width="2.5" points="${p.map(q=>q.join(',')).join(' ')}"/>${p.map(q=>`<circle cx="${q[0]}" cy="${q[1]}" r="3" fill="var(--pr)"/>`).join('')}</svg>`}
+
+function tabV(){
+  const n=Math.min(120,Q.length),S=stats(),hd=(t,s)=>`<div class=top><div class=bar><div><h1>${t}</h1>${s?`<p>${s}</p>`:''}</div><button class=sm onclick="W=true;R()">👤 ${esc(me().name)}</button></div></div>`;
+  if(tab=='home'){const best=S.d.length?Math.max(...S.d.map(pct)):0;
+    return hd('Hi, '+esc(me().name),`${Q.length} questions · ${chs().length} chapters`)+`<div class=gr><div class=card><b>${S.d.length}</b>Completed tests</div><div class=card><b>${best}%</b>Best score</div></div>
+    ${Q.length?`<div class=card><div class=bar><div class=ic>📝</div><div style="flex:1"><b>Practice Mock Test</b><br><span class=chip>${n} questions</span><span class=chip>${fmt(dur('mock',n))}</span><span class=chip>45 sec each</span></div></div><button class=pri onclick="pre('mock')">Start</button></div>
+    <div class=card><div class=bar><div class=ic>🎯</div><div style="flex:1"><b>Exam Level Test</b><br><span class=chip>${n} questions</span><span class=chip>${fmt(dur('exam',n))}</span><span class=chip>1 min each</span></div></div><button class=pri onclick="pre('exam')">Start</button></div>
+    <div class=card><div class=bar><div class=ic>📚</div><div style="flex:1"><b>Chapter Test</b><br><span class=chip>15 random questions</span><span class=chip>10 min</span></div></div><button onclick="tab='chap';R()">Choose a chapter</button></div>`:`<div class=card><b>No questions found</b><p class=mut>Put files named <code>chapter-01.json</code>, <code>chapter-02.json</code> … in the <code>data</code> folder, or import them from the Dashboard tab.</p></div>`}`}
+  if(tab=='chap')return hd('Chapters','Each test: 15 random questions · 10 min')+(chs().map(c=>{const s=S.ch[c.no];return`<div class=card><div class=bar><div class=ic style="font-size:18px;font-weight:700">${c.no}</div><div style="flex:1"><b>${esc(c.name)}</b><p class=mut style="margin:0">${c.qs.length} questions${s&&s.a?` · accuracy ${Math.round(s.c/s.a*100)}%`:''}</p></div></div><button class=pri onclick="pre('chapter',${c.no})">Start test</button></div>`}).join('')||'<div class=card>No chapters yet.</div>');
+  if(tab=='hist')return hd('History')+(S.h.slice().reverse().map(x=>`<div class=card onclick="V=${x.id};R()"><div class=bar><b>${title(x)}</b><span class=tag>${x.st}</span></div><p class=mut style="margin:2px 0">${when(x.id)}</p><b>${x.st=='completed'?`${x.score} / ${x.max}`:'Not scored'}</b></div>`).join('')||'<div class=card>No tests yet.</div>');
+  if(tab=='cls')return clsV(hd);
+  const avg=S.d.length?Math.round(S.d.reduce((a,x)=>a+pct(x),0)/S.d.length):0,best=S.d.length?Math.max(...S.d.map(pct)):0;
+  return hd('Dashboard')+`<div class=gr><div class=card><b>${S.h.length}</b>Attempted</div><div class=card><b>${S.d.length}</b>Completed</div><div class=card><b>${S.h.length-S.d.length}</b>Aborted</div><div class=card><b>${avg}%</b>Average score</div><div class=card><b>${best}%</b>Best score</div><div class=card><b>${S.seen.size}/${Q.length}</b>Questions seen</div></div>
+  <div class=card><b>Score trend (completed tests)</b>${chart(S.d)}</div>
+  <div class=card><b>Accuracy by chapter</b>${chs().map(c=>{const s=S.ch[c.no],p=s&&s.a?Math.round(s.c/s.a*100):0;return`<p class=mut style="margin:10px 0 0">Ch ${c.no}. ${esc(c.name)} · ${s&&s.a?p+'%':'no data'}</p><div class=barx><i style="width:${p}%"></i></div>`}).join('')}</div>
+  <div class=card><b>Question bank</b><p class=mut>${Q.length} questions · ${NF} data file(s) found online${IMP().length?` · ${IMP().length} imported on this device`:''}.</p>
+  ${ERR.map(e=>`<p style="color:var(--bad);font-size:14px">${esc(e)}</p>`).join('')}
+  <label class="btn pri">Import JSON file(s)<input type=file accept=".json,application/json" multiple hidden onchange=imp(this)></label>${IMP().length?'<button onclick=clearImp()>Remove imported questions</button>':''}</div>
+  ${syncCard()}<div class=card><b>Send report to teacher</b><p class=mut>Shares a small file with your test scores (not your answers).</p><button class=pri onclick=share()>Send my report</button></div>
+  <div class=card style="border-color:var(--bad)"><b>Reset data for ${esc(me().name)}</b><p class=mut>Deletes this student's test history, scores and progress. Questions and other students are not affected.</p><button class=bad onclick=reset()>Reset all data</button></div>`}
+
+function R(){
+  const nav=$('#nav'),app=$('#app');app.className=T?'x':'';
+  if(!CUR||W){nav.innerHTML='';app.innerHTML=whoV();return}
+  if(T){nav.innerHTML='';app.innerHTML=runV();upd();return}
+  if(P){nav.innerHTML='';app.innerHTML=preV();return}
+  if(V){nav.innerHTML='';app.innerHTML=resV();if(V)return}
+  nav.innerHTML='<div>'+[['home','🏠<br>Home'],['chap','📚<br>Chapters'],['hist','🕘<br>History'],['dash','📊<br>Dashboard'],['cls','🏆<br>Class']].map(([k,l])=>`<button class="${tab==k?'on':''}" onclick="tab='${k}';R();scrollTo(0,0)">${l}</button>`).join('')+'</div>';
+  app.innerHTML=tabV();
+}
+
+/* ---- boot ---- */
+window.onerror=m=>{$('#app').innerHTML='<div class=card style="margin:20px"><b>Something went wrong</b><p class=mut>'+esc(m)+'</p></div>'};
+(async()=>{
+  if('serviceWorker'in navigator)navigator.serviceWorker.register('sw.js').catch(()=>{});
+  $('#app').innerHTML='<p class=mut style="padding:20px">Loading…</p>';
+  await load();
+  const a=LS.qp_a;if(a){try{const o=JSON.parse(a),keep=CUR;if(PR.some(p=>p.id==o.pid)){CUR=o.pid;finish('aborted',o);CUR=keep}else LS.removeItem('qp_a')}catch(e){LS.removeItem('qp_a')}V=null}
+  R();
+  if(me().rt)sync();
+})();
+</script></body></html>
