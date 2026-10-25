@@ -1,0 +1,1860 @@
+{
+  "chapter_name": "The Living World",
+  "chapter_no": 1,
+  "subject": "Biology",
+  "class": 11,
+  "source_basis": [
+    "NCERT Class 11 Biology, Chapter 1: The Living World (chapter concepts and terminology)",
+    "Conversation study notes on the chapter"
+  ],
+  "source_limitation": "The attached UPESSC 2026 PDF appears to be a recruitment notification, not a previous-year Biology question paper. Therefore, these questions are NCERT-aligned and exam-oriented but are not claimed to be calibrated against actual previous-year questions from that PDF.",
+  "question_count": 142,
+  "questions": [
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "Which combination best captures the chapter's discussion of living organisms?",
+      "options": {
+        "A": "Growth alone",
+        "B": "Reproduction alone",
+        "C": "Metabolism, cellular organisation and response to stimuli among a combination of features",
+        "D": "Movement alone"
+      },
+      "correct_answer": "C",
+      "explanation": "No single feature such as growth or reproduction alone defines life; the chapter stresses a combination of characteristics."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "Growth in living organisms is described as an increase in:",
+      "options": {
+        "A": "Mass and number of individuals/cells",
+        "B": "Colour and temperature only",
+        "C": "Movement and habitat",
+        "D": "Only body length"
+      },
+      "correct_answer": "A",
+      "explanation": "Growth is commonly described as increase in mass and increase in number."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "Why is growth not an exclusive defining feature of living organisms?",
+      "options": {
+        "A": "Living organisms never grow",
+        "B": "Crystals can increase in size by external deposition",
+        "C": "Only animals grow",
+        "D": "Growth always requires reproduction"
+      },
+      "correct_answer": "B",
+      "explanation": "Crystals can grow by deposition of material from outside, so growth alone does not distinguish living from non-living."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "In living organisms, growth generally occurs:",
+      "options": {
+        "A": "Only by external deposition",
+        "B": "From within through internal processes",
+        "C": "Only after death",
+        "D": "Only in adults"
+      },
+      "correct_answer": "B",
+      "explanation": "Living growth generally occurs from within through internal processes."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "Which is the strongest reason reproduction cannot be the sole defining feature of life?",
+      "options": {
+        "A": "All organisms reproduce continuously",
+        "B": "Some living organisms or individuals do not reproduce",
+        "C": "Reproduction is a non-living process",
+        "D": "Only plants reproduce"
+      },
+      "correct_answer": "B",
+      "explanation": "Reproduction is not universal among living organisms."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "Which of the following is an example commonly used to show that reproduction is not universal?",
+      "options": {
+        "A": "Mule",
+        "B": "Quartz crystal",
+        "C": "Cloud",
+        "D": "Flame"
+      },
+      "correct_answer": "A",
+      "explanation": "Mules are typically sterile and are a standard example in this context."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "Which set contains examples used to illustrate non-reproduction in living individuals?",
+      "options": {
+        "A": "Mule, sterile worker bee, infertile human",
+        "B": "Crystal, rock, water",
+        "C": "Mimosa, moss, fern",
+        "D": "Bacteria, all fertile animals, all seeds"
+      },
+      "correct_answer": "A",
+      "explanation": "These examples show that not every living individual reproduces."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "Metabolism refers to:",
+      "options": {
+        "A": "Only digestion",
+        "B": "The sum total of chemical reactions in a living body",
+        "C": "Only breathing",
+        "D": "The naming of organisms"
+      },
+      "correct_answer": "B",
+      "explanation": "Metabolism includes the totality of chemical reactions in an organism."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "Anabolism is best described as:",
+      "options": {
+        "A": "Breakdown of complex molecules",
+        "B": "Building or synthesis of molecules",
+        "C": "Movement from place to place",
+        "D": "Assignment of scientific names"
+      },
+      "correct_answer": "B",
+      "explanation": "Anabolism builds more complex molecules, for example during protein synthesis."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "Catabolism is best described as:",
+      "options": {
+        "A": "Building complex molecules",
+        "B": "Breakdown of molecules",
+        "C": "Grouping species",
+        "D": "Response to light only"
+      },
+      "correct_answer": "B",
+      "explanation": "Catabolic reactions break molecules down, as in glucose breakdown during respiration."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "Protein synthesis is an example of:",
+      "options": {
+        "A": "Anabolism",
+        "B": "Catabolism",
+        "C": "Locomotion",
+        "D": "Nomenclature"
+      },
+      "correct_answer": "A",
+      "explanation": "Protein synthesis builds a complex molecule from smaller components."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "The breakdown of glucose during respiration is an example of:",
+      "options": {
+        "A": "Anabolism",
+        "B": "Catabolism",
+        "C": "Classification",
+        "D": "Taxonomic identification"
+      },
+      "correct_answer": "B",
+      "explanation": "Glucose breakdown is a catabolic process."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "Why is metabolism especially important in defining living organisms in this chapter?",
+      "options": {
+        "A": "It is a taxonomic rank",
+        "B": "It is the sum of chemical reactions characteristic of living systems",
+        "C": "It occurs only in crystals",
+        "D": "It is identical to reproduction"
+      },
+      "correct_answer": "B",
+      "explanation": "The chapter highlights metabolism as a defining feature of living organisms."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "A reaction performed in vitro is:",
+      "options": {
+        "A": "Automatically a living organism",
+        "B": "A reaction carried out outside a living body under laboratory conditions",
+        "C": "A species category",
+        "D": "A type of botanical garden"
+      },
+      "correct_answer": "B",
+      "explanation": "A reaction outside the living body may mimic a biochemical reaction but is not itself a living organism."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "Which statement about an isolated biochemical reaction is most appropriate?",
+      "options": {
+        "A": "It is itself a complete living organism",
+        "B": "It cannot occur outside a body",
+        "C": "An isolated reaction in vitro does not by itself constitute a living organism",
+        "D": "It is always reproduction"
+      },
+      "correct_answer": "C",
+      "explanation": "The chapter distinguishes chemical reactions from the organised living system."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "The basic structural and functional unit of life is the:",
+      "options": {
+        "A": "Tissue",
+        "B": "Organ",
+        "C": "Cell",
+        "D": "Organ system"
+      },
+      "correct_answer": "C",
+      "explanation": "Cells provide the basic structural and functional organisation of living organisms."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "A unicellular organism is one that:",
+      "options": {
+        "A": "Has no cells",
+        "B": "Consists of a single cell",
+        "C": "Always has tissues",
+        "D": "Is necessarily non-living"
+      },
+      "correct_answer": "B",
+      "explanation": "Unicellular organisms carry out life processes within one cell."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "Multicellular organisms are characterised by:",
+      "options": {
+        "A": "Only one cell",
+        "B": "Many cells with organisation and often division of labour",
+        "C": "Absence of cellular organisation",
+        "D": "Absence of metabolism"
+      },
+      "correct_answer": "B",
+      "explanation": "Multicellular organisms have many cells arranged in an organised system."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "Responsiveness to environmental stimuli is associated with:",
+      "options": {
+        "A": "Consciousness in the broad biological sense used in the chapter",
+        "B": "Binomial nomenclature",
+        "C": "Herbarium preparation",
+        "D": "Taxonomic hierarchy only"
+      },
+      "correct_answer": "A",
+      "explanation": "Living organisms can sense and respond to environmental changes."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "Folding of Mimosa pudica leaves after touch illustrates:",
+      "options": {
+        "A": "Nomenclature",
+        "B": "Response to a stimulus",
+        "C": "Catabolism only",
+        "D": "A taxonomic category"
+      },
+      "correct_answer": "B",
+      "explanation": "Touch is a stimulus and leaf folding is the response."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "A plant bending toward light is an example of:",
+      "options": {
+        "A": "Response to an environmental stimulus",
+        "B": "A taxonomic key",
+        "C": "Reproduction being universal",
+        "D": "A museum specimen"
+      },
+      "correct_answer": "A",
+      "explanation": "Light acts as an environmental stimulus to which the plant responds."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "Which statement correctly distinguishes movement from locomotion?",
+      "options": {
+        "A": "They always mean exactly the same thing",
+        "B": "Movement can occur without an organism moving from place to place",
+        "C": "Plants never move",
+        "D": "Only non-living things move"
+      },
+      "correct_answer": "B",
+      "explanation": "Plants can show movement without locomotion from one place to another."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "Which statement about motility is correct?",
+      "options": {
+        "A": "All living organisms are motile",
+        "B": "No living organism moves",
+        "C": "Some living organisms are sessile and do not move from place to place",
+        "D": "Motility is the same as scientific naming"
+      },
+      "correct_answer": "C",
+      "explanation": "Sessile organisms remain fixed in one place, so motility is not universal."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "Which is NOT a sound conclusion from the chapter?",
+      "options": {
+        "A": "Growth alone does not define life",
+        "B": "Reproduction is not universal",
+        "C": "Metabolism is important in defining living organisms",
+        "D": "Every living individual must reproduce"
+      },
+      "correct_answer": "D",
+      "explanation": "The chapter explicitly gives exceptions to reproduction."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "Which pairing is correct?",
+      "options": {
+        "A": "Anabolism—breakdown",
+        "B": "Catabolism—synthesis",
+        "C": "Anabolism—building; catabolism—breakdown",
+        "D": "Metabolism—scientific naming"
+      },
+      "correct_answer": "C",
+      "explanation": "Anabolism builds molecules, catabolism breaks them down."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "Which set contains only life-characteristic concepts discussed in this section?",
+      "options": {
+        "A": "Growth, reproduction, metabolism, cellular organisation, response to stimuli",
+        "B": "Colour, price, weight, locality, name",
+        "C": "Kingdom, family, genus, flora, manual",
+        "D": "Herbarium, museum, catalogue, couplet, lead"
+      },
+      "correct_answer": "A",
+      "explanation": "These are the principal characteristics discussed in the opening section."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "Biodiversity refers to:",
+      "options": {
+        "A": "The variety of living organisms",
+        "B": "Only organisms in a museum",
+        "C": "Only the names of plants",
+        "D": "Only movement in animals"
+      },
+      "correct_answer": "A",
+      "explanation": "Biodiversity refers broadly to the variety of life."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "Identification in taxonomy means:",
+      "options": {
+        "A": "Assigning a new rank",
+        "B": "Recognising an organism and determining its identity",
+        "C": "Preserving a plant on a sheet",
+        "D": "Observing only its colour"
+      },
+      "correct_answer": "B",
+      "explanation": "Identification establishes what organism is being studied."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "Nomenclature is the process of:",
+      "options": {
+        "A": "Giving a scientific name",
+        "B": "Grouping organisms only",
+        "C": "Measuring growth",
+        "D": "Preserving animals in fluid"
+      },
+      "correct_answer": "A",
+      "explanation": "Nomenclature is the assignment of scientific names."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "Classification is the process of:",
+      "options": {
+        "A": "Naming without grouping",
+        "B": "Arranging organisms into groups based on similarities and differences",
+        "C": "Only observing behaviour",
+        "D": "Producing offspring"
+      },
+      "correct_answer": "B",
+      "explanation": "Classification organises organisms into groups."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "The three basic activities of taxonomy are:",
+      "options": {
+        "A": "Growth, metabolism, response",
+        "B": "Identification, nomenclature, classification",
+        "C": "Flora, manual, monograph",
+        "D": "Kingdom, class, order"
+      },
+      "correct_answer": "B",
+      "explanation": "These are the three core activities of taxonomy in the chapter."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "Systematics studies:",
+      "options": {
+        "A": "Only the spelling of names",
+        "B": "Diversity and relationships among organisms, including evolutionary relationships",
+        "C": "Only plant specimens",
+        "D": "Only organisms in zoological parks"
+      },
+      "correct_answer": "B",
+      "explanation": "Systematics considers diversity and relationships, including evolutionary history."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "Which statement best distinguishes systematics from simply assigning names?",
+      "options": {
+        "A": "Systematics considers relationships as well as diversity",
+        "B": "Systematics only italicises names",
+        "C": "Systematics is another word for herbarium",
+        "D": "Systematics excludes evolutionary history"
+      },
+      "correct_answer": "A",
+      "explanation": "Systematics includes relationships among organisms, not just naming."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "Why are scientific names useful?",
+      "options": {
+        "A": "They are different in every village",
+        "B": "They reduce confusion from different common names and standardise communication",
+        "C": "They describe only an organism's colour",
+        "D": "They replace classification"
+      },
+      "correct_answer": "B",
+      "explanation": "Scientific names provide standardised communication across languages and regions."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "Which is NOT one of the three basic activities of taxonomy?",
+      "options": {
+        "A": "Identification",
+        "B": "Nomenclature",
+        "C": "Classification",
+        "D": "Photosynthesis"
+      },
+      "correct_answer": "D",
+      "explanation": "Photosynthesis is a biological process, not a core taxonomic activity."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "Which pairing is correct?",
+      "options": {
+        "A": "Identification—assigning a scientific name",
+        "B": "Nomenclature—assigning a scientific name",
+        "C": "Classification—preserving specimens",
+        "D": "Systematics—only measuring growth"
+      },
+      "correct_answer": "B",
+      "explanation": "Nomenclature concerns scientific naming."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "Which pairing is correct?",
+      "options": {
+        "A": "Classification—grouping organisms by similarities and differences",
+        "B": "Identification—writing italic names only",
+        "C": "Nomenclature—grouping into families",
+        "D": "Biodiversity—only one species"
+      },
+      "correct_answer": "A",
+      "explanation": "Classification groups organisms using shared and distinguishing features."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "The term biodiversity is most directly concerned with:",
+      "options": {
+        "A": "Variety of life",
+        "B": "Only scientific spelling",
+        "C": "Only the order of taxonomic ranks",
+        "D": "Only dried plant samples"
+      },
+      "correct_answer": "A",
+      "explanation": "Biodiversity refers to the variety of living organisms."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "A researcher recognises an unknown plant using diagnostic features. This activity is:",
+      "options": {
+        "A": "Identification",
+        "B": "Nomenclature",
+        "C": "Catabolism",
+        "D": "Reproduction"
+      },
+      "correct_answer": "A",
+      "explanation": "Recognising and determining identity is identification."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "A researcher assigns a formal scientific name to a species. This is:",
+      "options": {
+        "A": "Classification",
+        "B": "Nomenclature",
+        "C": "Locomotion",
+        "D": "Metabolism"
+      },
+      "correct_answer": "B",
+      "explanation": "Assigning a scientific name is nomenclature."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "A researcher places organisms into groups according to shared characteristics. This is:",
+      "options": {
+        "A": "Classification",
+        "B": "Nomenclature",
+        "C": "Growth",
+        "D": "Consciousness"
+      },
+      "correct_answer": "A",
+      "explanation": "Grouping organisms based on similarities and differences is classification."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "Which statement is most accurate?",
+      "options": {
+        "A": "Taxonomy's basic activities include identification, nomenclature and classification",
+        "B": "Taxonomy includes only naming",
+        "C": "Taxonomy excludes identification",
+        "D": "Taxonomy means only evolutionary history"
+      },
+      "correct_answer": "A",
+      "explanation": "This is the core set of taxonomic activities."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "Which sequence is arranged from broadest to most specific?",
+      "options": {
+        "A": "Species → Genus → Family → Order",
+        "B": "Kingdom → Phylum/Division → Class → Order → Family → Genus → Species",
+        "C": "Family → Kingdom → Species → Genus",
+        "D": "Genus → Kingdom → Order → Species"
+      },
+      "correct_answer": "B",
+      "explanation": "This is the standard taxonomic hierarchy from broad to specific."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "Which is the most specific principal category in the hierarchy listed in the chapter?",
+      "options": {
+        "A": "Kingdom",
+        "B": "Class",
+        "C": "Species",
+        "D": "Order"
+      },
+      "correct_answer": "C",
+      "explanation": "Species is the basic and most specific principal category in this hierarchy."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "Which category comes immediately below Kingdom in the animal hierarchy?",
+      "options": {
+        "A": "Family",
+        "B": "Phylum",
+        "C": "Genus",
+        "D": "Species"
+      },
+      "correct_answer": "B",
+      "explanation": "The animal hierarchy proceeds Kingdom, Phylum, Class, Order, Family, Genus, Species."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "Which category comes immediately above Genus?",
+      "options": {
+        "A": "Family",
+        "B": "Order",
+        "C": "Class",
+        "D": "Species"
+      },
+      "correct_answer": "A",
+      "explanation": "Family contains related genera."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "Which category comes immediately below Family?",
+      "options": {
+        "A": "Order",
+        "B": "Genus",
+        "C": "Class",
+        "D": "Kingdom"
+      },
+      "correct_answer": "B",
+      "explanation": "Genus is below family and above species."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "A taxonomic category refers to:",
+      "options": {
+        "A": "The rank or level in the hierarchy",
+        "B": "Only a preserved specimen",
+        "C": "Only a scientific epithet",
+        "D": "A pair of statements"
+      },
+      "correct_answer": "A",
+      "explanation": "Category is the rank, such as family, genus or species."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "A taxon refers to:",
+      "options": {
+        "A": "The rank alone",
+        "B": "A group or unit placed at any taxonomic rank",
+        "C": "Only the species rank",
+        "D": "A botanical garden"
+      },
+      "correct_answer": "B",
+      "explanation": "A taxon is an actual group at a rank."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "Which example correctly distinguishes category from taxon?",
+      "options": {
+        "A": "Family is a category; a particular family is a taxon",
+        "B": "A taxon is always a rank; category is an organism",
+        "C": "Both mean scientific epithet",
+        "D": "Neither relates to classification"
+      },
+      "correct_answer": "A",
+      "explanation": "The category is the level; the taxon is the specific group occupying it."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "A genus generally comprises:",
+      "options": {
+        "A": "Related species",
+        "B": "Related kingdoms",
+        "C": "Related phyla",
+        "D": "Only unrelated species"
+      },
+      "correct_answer": "A",
+      "explanation": "A genus groups closely related species."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "A family generally comprises:",
+      "options": {
+        "A": "Related genera",
+        "B": "Related orders",
+        "C": "Related classes",
+        "D": "Only individual cells"
+      },
+      "correct_answer": "A",
+      "explanation": "A family groups related genera."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "An order generally comprises:",
+      "options": {
+        "A": "Related families",
+        "B": "Related species only",
+        "C": "Related kingdoms",
+        "D": "Related genera only"
+      },
+      "correct_answer": "A",
+      "explanation": "An order groups related families."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "A class generally comprises:",
+      "options": {
+        "A": "Related orders",
+        "B": "Related species",
+        "C": "Related families only",
+        "D": "Related individuals only"
+      },
+      "correct_answer": "A",
+      "explanation": "A class groups related orders."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "A phylum or division generally comprises:",
+      "options": {
+        "A": "Related classes",
+        "B": "Related species",
+        "C": "Related genera",
+        "D": "Related individuals"
+      },
+      "correct_answer": "A",
+      "explanation": "Phylum/division groups related classes."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "Kingdom is the broad category that groups related:",
+      "options": {
+        "A": "Species only",
+        "B": "Genera only",
+        "C": "Phyla or divisions",
+        "D": "Specific epithets"
+      },
+      "correct_answer": "C",
+      "explanation": "Kingdom includes related phyla or divisions."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "Which term is commonly used for the plant category corresponding to animal phylum?",
+      "options": {
+        "A": "Division",
+        "B": "Genus",
+        "C": "Family",
+        "D": "Species"
+      },
+      "correct_answer": "A",
+      "explanation": "Division is commonly used in plant classification; phylum is common in animals."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "Which sequence is ordered from specific to broader categories?",
+      "options": {
+        "A": "Species → Genus → Family → Order → Class",
+        "B": "Kingdom → Phylum → Species",
+        "C": "Class → Family → Species → Kingdom",
+        "D": "Order → Species → Kingdom"
+      },
+      "correct_answer": "A",
+      "explanation": "Moving from species upward, each category is broader."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "If two species are placed in the same genus, this indicates that they are grouped as:",
+      "options": {
+        "A": "Related species",
+        "B": "The same individual",
+        "C": "The same specific epithet necessarily",
+        "D": "Members of different kingdoms necessarily"
+      },
+      "correct_answer": "A",
+      "explanation": "A genus groups related species; same genus does not mean same species."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "Which statement about the hierarchy is correct?",
+      "options": {
+        "A": "Every rank contains only one taxon worldwide",
+        "B": "Higher categories generally include more diverse groups",
+        "C": "Species is broader than kingdom",
+        "D": "Family is above kingdom"
+      },
+      "correct_answer": "B",
+      "explanation": "Higher ranks are broader and include more diverse groups."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "Which order is correct between Class and Species?",
+      "options": {
+        "A": "Class → Order → Family → Genus → Species",
+        "B": "Class → Genus → Order → Species",
+        "C": "Class → Family → Phylum → Species",
+        "D": "Class → Kingdom → Genus → Species"
+      },
+      "correct_answer": "A",
+      "explanation": "The hierarchy between class and species is order, family, genus, species."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "Which of the following is a taxonomic category rather than a particular named group?",
+      "options": {
+        "A": "Genus",
+        "B": "Homo",
+        "C": "Homo sapiens",
+        "D": "A named species"
+      },
+      "correct_answer": "A",
+      "explanation": "Genus is a rank/category; Homo is a particular genus taxon."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "Binomial nomenclature gives each species a name made of:",
+      "options": {
+        "A": "One word only",
+        "B": "Genus name and specific epithet",
+        "C": "Family and order",
+        "D": "Common name and locality"
+      },
+      "correct_answer": "B",
+      "explanation": "A binomial consists of two parts: genus and specific epithet."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "In Homo sapiens, Homo is the:",
+      "options": {
+        "A": "Specific epithet",
+        "B": "Genus name",
+        "C": "Family name",
+        "D": "Order"
+      },
+      "correct_answer": "B",
+      "explanation": "Homo is the genus name."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "In Homo sapiens, sapiens is the:",
+      "options": {
+        "A": "Genus name",
+        "B": "Specific epithet",
+        "C": "Family name",
+        "D": "Kingdom"
+      },
+      "correct_answer": "B",
+      "explanation": "Sapiens is the specific epithet."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "Which scientific name is formatted correctly?",
+      "options": {
+        "A": "homo Sapiens",
+        "B": "Homo sapiens",
+        "C": "HOMO SAPIENS",
+        "D": "Homo Sapiens"
+      },
+      "correct_answer": "B",
+      "explanation": "The genus begins with a capital letter and the specific epithet with a lowercase letter."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "Which word in a binomial begins with a capital letter?",
+      "options": {
+        "A": "Specific epithet",
+        "B": "Genus name",
+        "C": "Both words always",
+        "D": "Neither word"
+      },
+      "correct_answer": "B",
+      "explanation": "The genus name is capitalised."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "Which word in a binomial begins with a lowercase letter?",
+      "options": {
+        "A": "Genus name",
+        "B": "Specific epithet",
+        "C": "Kingdom",
+        "D": "Family"
+      },
+      "correct_answer": "B",
+      "explanation": "The specific epithet begins with a lowercase letter."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "In printed text, scientific names are generally:",
+      "options": {
+        "A": "Italicised",
+        "B": "Written entirely in capitals",
+        "C": "Underlined with a ruler",
+        "D": "Put in quotation marks"
+      },
+      "correct_answer": "A",
+      "explanation": "Printed scientific names are italicised."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "When writing a scientific name by hand, the two parts are conventionally:",
+      "options": {
+        "A": "Underlined separately",
+        "B": "Underlined as one continuous word",
+        "C": "Never underlined",
+        "D": "Written in all capitals"
+      },
+      "correct_answer": "A",
+      "explanation": "When handwritten, each word is underlined separately."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "Which is the correctly written scientific name of the housefly from the chapter discussion?",
+      "options": {
+        "A": "musca Domestica",
+        "B": "Musca domestica",
+        "C": "MUSCA DOMESTICA",
+        "D": "Musca Domestica"
+      },
+      "correct_answer": "B",
+      "explanation": "The genus Musca is capitalised and domestica is lowercase."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "In Mangifera indica, the word Mangifera is:",
+      "options": {
+        "A": "Specific epithet",
+        "B": "Genus",
+        "C": "Family",
+        "D": "Order"
+      },
+      "correct_answer": "B",
+      "explanation": "Mangifera is the genus name."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "In Mangifera indica, indica is:",
+      "options": {
+        "A": "Genus",
+        "B": "Specific epithet",
+        "C": "Kingdom",
+        "D": "Family"
+      },
+      "correct_answer": "B",
+      "explanation": "Indica is the specific epithet."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "Which is the best explanation for using binomial nomenclature?",
+      "options": {
+        "A": "Every language has the same common names",
+        "B": "It creates a standard two-part scientific name",
+        "C": "It identifies only the habitat",
+        "D": "It replaces all taxonomic ranks"
+      },
+      "correct_answer": "B",
+      "explanation": "The system standardises scientific naming with two components."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "Which is incorrect under standard binomial formatting?",
+      "options": {
+        "A": "Homo sapiens",
+        "B": "Mangifera indica",
+        "C": "Musca domestica",
+        "D": "homo sapiens"
+      },
+      "correct_answer": "D",
+      "explanation": "The genus name should begin with a capital letter."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "Which formatting rule applies to both Homo sapiens and Mangifera indica in printed text?",
+      "options": {
+        "A": "Italicise both words",
+        "B": "Capitalise both words",
+        "C": "Underline only the epithet",
+        "D": "Use quotation marks"
+      },
+      "correct_answer": "A",
+      "explanation": "Both parts of a printed scientific name are italicised."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "Which statement is correct about the specific epithet?",
+      "options": {
+        "A": "It is always a complete species name by itself",
+        "B": "It follows the genus name and begins with a lowercase letter",
+        "C": "It is written first and capitalised",
+        "D": "It is the same thing as taxonomic category"
+      },
+      "correct_answer": "B",
+      "explanation": "The specific epithet is the second part of the binomial."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "A herbarium is primarily a collection of:",
+      "options": {
+        "A": "Living wild animals",
+        "B": "Dried, pressed and preserved plant specimens",
+        "C": "Only living plants in soil",
+        "D": "Only animal skeletons"
+      },
+      "correct_answer": "B",
+      "explanation": "Herbarium specimens are preserved plant samples mounted on sheets."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "Which sequence best describes herbarium specimen preparation?",
+      "options": {
+        "A": "Collect, dry, press, preserve/mount and label",
+        "B": "Water, grow, release and feed",
+        "C": "Pin, stuff, breed and release",
+        "D": "Name, reproduce, move and classify"
+      },
+      "correct_answer": "A",
+      "explanation": "Plant specimens are collected, dried, pressed, mounted and labelled."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "Which information may appear on a herbarium label?",
+      "options": {
+        "A": "Scientific name, family, locality, date and collector",
+        "B": "Only the plant's height",
+        "C": "Only its common name",
+        "D": "Only the weather forecast"
+      },
+      "correct_answer": "A",
+      "explanation": "Labels record identification and collection details."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "A botanical garden mainly maintains:",
+      "options": {
+        "A": "Living plant collections",
+        "B": "Only dried leaves",
+        "C": "Only stuffed mammals",
+        "D": "Only insect pins"
+      },
+      "correct_answer": "A",
+      "explanation": "Botanical gardens grow and maintain living plants for study and reference."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "Which is a botanical garden example discussed in our notes?",
+      "options": {
+        "A": "Royal Botanic Gardens, Kew",
+        "B": "A taxonomic couplet",
+        "C": "A herbarium label",
+        "D": "A zoological museum jar"
+      },
+      "correct_answer": "A",
+      "explanation": "Kew is a well-known botanical garden."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "The Indian Botanical Garden mentioned in the notes is located at:",
+      "options": {
+        "A": "Howrah",
+        "B": "Agra",
+        "C": "Lucknow",
+        "D": "Dehradun"
+      },
+      "correct_answer": "A",
+      "explanation": "The Indian Botanical Garden at Howrah is a standard example."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "Museums are useful in taxonomy because they:",
+      "options": {
+        "A": "Keep only living plants",
+        "B": "Preserve and display specimens for study",
+        "C": "Only identify plants by smell",
+        "D": "Contain only taxonomic keys"
+      },
+      "correct_answer": "B",
+      "explanation": "Museums maintain preserved specimens for reference and study."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "Larger animal specimens in museums may be:",
+      "options": {
+        "A": "Stuffed",
+        "B": "Pressed into herbarium sheets",
+        "C": "Grown in flower beds",
+        "D": "Written as specific epithets"
+      },
+      "correct_answer": "A",
+      "explanation": "Larger animals may be stuffed for preservation and display."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "Insects in museum collections are commonly:",
+      "options": {
+        "A": "Pinned and mounted",
+        "B": "Pressed as whole trees",
+        "C": "Kept only in aquaria",
+        "D": "Treated as taxonomic ranks"
+      },
+      "correct_answer": "A",
+      "explanation": "Insects are often pinned and mounted."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "A zoological park is most directly associated with:",
+      "options": {
+        "A": "Living wild animals under human care",
+        "B": "Dried plant sheets",
+        "C": "A list of plants in a region",
+        "D": "Only preserved insects"
+      },
+      "correct_answer": "A",
+      "explanation": "Zoological parks allow observation of living animals and their behaviour."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "Which aid is most useful for observing the behaviour of living wild animals?",
+      "options": {
+        "A": "Herbarium",
+        "B": "Zoological park",
+        "C": "Monograph",
+        "D": "Catalogue"
+      },
+      "correct_answer": "B",
+      "explanation": "Animals can be observed alive in zoological parks."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "A taxonomic key identifies organisms using:",
+      "options": {
+        "A": "Contrasting characters",
+        "B": "Only common names",
+        "C": "Only geographical coordinates",
+        "D": "Only specimen price"
+      },
+      "correct_answer": "A",
+      "explanation": "Keys guide identification by contrasting character choices."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "A couplet in a taxonomic key consists of:",
+      "options": {
+        "A": "A pair of contrasting statements",
+        "B": "A genus and family",
+        "C": "Two herbarium sheets",
+        "D": "A plant and an animal"
+      },
+      "correct_answer": "A",
+      "explanation": "A couplet contains two contrasting alternatives."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "A lead in a taxonomic key is:",
+      "options": {
+        "A": "Each individual statement in a couplet",
+        "B": "A taxonomic kingdom",
+        "C": "A preserved animal",
+        "D": "A scientific name's first letter"
+      },
+      "correct_answer": "A",
+      "explanation": "Each individual statement is called a lead."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "Flora generally provides information about:",
+      "options": {
+        "A": "Plants of a particular region",
+        "B": "Only living animals",
+        "C": "Only one taxon in great detail",
+        "D": "Only animal behaviour"
+      },
+      "correct_answer": "A",
+      "explanation": "A flora is an account of the plants of a region."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "A manual is useful because it helps:",
+      "options": {
+        "A": "Identify species and their names",
+        "B": "Keep animals alive",
+        "C": "Stuff large mammals",
+        "D": "Make organisms reproduce"
+      },
+      "correct_answer": "A",
+      "explanation": "Manuals help users identify species and learn their names."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "A monograph is best described as:",
+      "options": {
+        "A": "A detailed account of one taxon",
+        "B": "A collection of living plants",
+        "C": "A pair of contrasting statements",
+        "D": "A list of only common names"
+      },
+      "correct_answer": "A",
+      "explanation": "A monograph treats one taxon in detail."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "A catalogue is:",
+      "options": {
+        "A": "An organised list of organisms or taxonomic information",
+        "B": "A living plant collection",
+        "C": "A stuffed animal",
+        "D": "A type of cellular metabolism"
+      },
+      "correct_answer": "A",
+      "explanation": "A catalogue is an organised listing."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "Which match is incorrect?",
+      "options": {
+        "A": "Herbarium—dried plant specimens",
+        "B": "Botanical garden—living plants",
+        "C": "Taxonomic key—contrasting characters",
+        "D": "Monograph—pair of contrasting statements"
+      },
+      "correct_answer": "D",
+      "explanation": "A pair of contrasting statements is a couplet in a key; a monograph is a detailed account of one taxon."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "Which pair is correctly matched?",
+      "options": {
+        "A": "Flora—plants of a region",
+        "B": "Manual—living wild animals",
+        "C": "Zoological park—dried plant specimens",
+        "D": "Herbarium—living plant collection"
+      },
+      "correct_answer": "A",
+      "explanation": "Flora covers the plants of a particular region."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "Which aid is best matched with the purpose 'detailed account of a single taxon'?",
+      "options": {
+        "A": "Monograph",
+        "B": "Catalogue",
+        "C": "Zoological park",
+        "D": "Herbarium label"
+      },
+      "correct_answer": "A",
+      "explanation": "A monograph focuses in detail on one taxon."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "Which aid is best matched with the purpose 'identification using contrasting character pairs'?",
+      "options": {
+        "A": "Taxonomic key",
+        "B": "Flora",
+        "C": "Museum",
+        "D": "Botanical garden"
+      },
+      "correct_answer": "A",
+      "explanation": "Taxonomic keys use contrasting characters."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "Which aid is best matched with the purpose 'living collection of plants'?",
+      "options": {
+        "A": "Botanical garden",
+        "B": "Herbarium",
+        "C": "Museum",
+        "D": "Catalogue"
+      },
+      "correct_answer": "A",
+      "explanation": "Botanical gardens maintain living plants."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "Which aid is best matched with the purpose 'preserved specimens for study'?",
+      "options": {
+        "A": "Museum",
+        "B": "Zoological park",
+        "C": "Flora",
+        "D": "Manual"
+      },
+      "correct_answer": "A",
+      "explanation": "Museums preserve specimens."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "Which statement about taxonomical aids is most accurate?",
+      "options": {
+        "A": "Every aid performs exactly the same function",
+        "B": "Different aids support complementary aspects of identification and study",
+        "C": "Only museums are taxonomical aids",
+        "D": "Aids make classification unnecessary"
+      },
+      "correct_answer": "B",
+      "explanation": "Different aids provide different kinds of evidence and reference."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "A student claims that a crystal is living because it increases in size. Which concept directly challenges this claim?",
+      "options": {
+        "A": "Growth can occur by external deposition in non-living crystals",
+        "B": "All living things are immobile",
+        "C": "Only animals grow",
+        "D": "Scientific names are italicised"
+      },
+      "correct_answer": "A",
+      "explanation": "Crystal growth shows why growth alone is insufficient as a defining criterion."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "An infertile individual is still alive. Which inference is best supported?",
+      "options": {
+        "A": "Reproduction is not universal among living individuals",
+        "B": "The individual must be non-living",
+        "C": "Metabolism is impossible",
+        "D": "Cellular organisation is absent"
+      },
+      "correct_answer": "A",
+      "explanation": "The inability to reproduce does not mean an individual is non-living."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "A biochemical reaction is performed in a test tube. Why is the test tube reaction not itself a living organism?",
+      "options": {
+        "A": "It lacks the complete organisation of a living system",
+        "B": "It has a chemical reaction",
+        "C": "It is too small",
+        "D": "It cannot be named"
+      },
+      "correct_answer": "A",
+      "explanation": "An isolated in-vitro reaction is not a whole living organism."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "A plant responds to light but remains rooted in one place. Which pair of concepts does this illustrate?",
+      "options": {
+        "A": "Responsiveness and movement without locomotion",
+        "B": "Nomenclature and classification",
+        "C": "Growth and taxon",
+        "D": "Flora and monograph"
+      },
+      "correct_answer": "A",
+      "explanation": "Plants respond to stimuli and can move without locomoting from place to place."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "Which of the following is a definition-to-term match?",
+      "options": {
+        "A": "Taxon—rank itself",
+        "B": "Category—actual named group only",
+        "C": "Nomenclature—scientific naming",
+        "D": "Couplet—single lead"
+      },
+      "correct_answer": "C",
+      "explanation": "Nomenclature is scientific naming; category is rank, taxon is the group, and couplet is a pair of statements."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "A biologist studies evolutionary relationships among organisms. Which field is most directly relevant?",
+      "options": {
+        "A": "Systematics",
+        "B": "Herbarium mounting",
+        "C": "Nomenclature alone",
+        "D": "Locomotion"
+      },
+      "correct_answer": "A",
+      "explanation": "Systematics includes diversity and relationships, including evolutionary history."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "Two statements in a key offer contrasting choices for identification. Together they form a:",
+      "options": {
+        "A": "Couplet",
+        "B": "Taxon",
+        "C": "Monograph",
+        "D": "Flora"
+      },
+      "correct_answer": "A",
+      "explanation": "A pair of contrasting statements is a couplet."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "A student records that a plant specimen was collected at a specific place on a specific date by a named collector. Where would this information typically be recorded?",
+      "options": {
+        "A": "Herbarium label",
+        "B": "Taxonomic hierarchy",
+        "C": "Specific epithet only",
+        "D": "Couplet"
+      },
+      "correct_answer": "A",
+      "explanation": "Herbarium labels commonly record collection locality, date, collector and taxonomic details."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "A reference work gives a detailed treatment of a single genus. Which kind of aid does this most closely resemble?",
+      "options": {
+        "A": "Monograph",
+        "B": "Zoological park",
+        "C": "Couplet",
+        "D": "Botanical garden"
+      },
+      "correct_answer": "A",
+      "explanation": "A monograph gives a detailed account of one taxon; a genus can be the taxon treated."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "A reference listing organims in an organised format is most likely a:",
+      "options": {
+        "A": "Catalogue",
+        "B": "Mimosa response",
+        "C": "Couplet",
+        "D": "Cell"
+      },
+      "correct_answer": "A",
+      "explanation": "A catalogue is an organised list of organisms or taxonomic information."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "Which pair contains one taxonomic activity and one taxonomical aid?",
+      "options": {
+        "A": "Classification and herbarium",
+        "B": "Catabolism and family",
+        "C": "Growth and species",
+        "D": "Locomotion and nomenclature"
+      },
+      "correct_answer": "A",
+      "explanation": "Classification is a taxonomic activity; a herbarium is a taxonomical aid."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "Which sequence correctly matches the three concepts?",
+      "options": {
+        "A": "Identification—recognise; nomenclature—name; classification—group",
+        "B": "Identification—group; nomenclature—preserve; classification—name",
+        "C": "Identification—reproduce; nomenclature—grow; classification—move",
+        "D": "Identification—italicise; nomenclature—observe; classification—metabolise"
+      },
+      "correct_answer": "A",
+      "explanation": "These definitions distinguish the three basic activities of taxonomy."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "Which is the best example of a common-name problem that scientific nomenclature helps solve?",
+      "options": {
+        "A": "The same organism may have different local names in different places",
+        "B": "All organisms have identical names worldwide",
+        "C": "Plants cannot be identified",
+        "D": "Every species belongs to the same genus"
+      },
+      "correct_answer": "A",
+      "explanation": "Standard scientific names reduce ambiguity caused by local/common names."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "Which of the following is not a taxonomical aid listed in our chapter notes?",
+      "options": {
+        "A": "Herbarium",
+        "B": "Botanical garden",
+        "C": "Taxonomic key",
+        "D": "Catabolism"
+      },
+      "correct_answer": "D",
+      "explanation": "Catabolism is a metabolic process, not a taxonomical aid."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "A student says 'Family is a taxon and category in exactly the same sense.' Which correction is best?",
+      "options": {
+        "A": "Family is a category/rank; a particular family is a taxon at that rank",
+        "B": "Family is a lead",
+        "C": "Family is a scientific epithet",
+        "D": "Family is not part of taxonomy"
+      },
+      "correct_answer": "A",
+      "explanation": "Category is the rank, while a specific group occupying that rank is a taxon."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "Which fact is an exception rather than a universal rule for living organisms?",
+      "options": {
+        "A": "All living organisms carry out metabolism",
+        "B": "All individual living organisms reproduce",
+        "C": "Living organisms have cellular organisation",
+        "D": "Living organisms respond to stimuli"
+      },
+      "correct_answer": "B",
+      "explanation": "Reproduction is not universal; sterile individuals are examples."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "Which statement best captures why multiple characteristics are considered when identifying life?",
+      "options": {
+        "A": "Each individual characteristic is always unique to life",
+        "B": "Some characteristics, such as growth or reproduction, have exceptions",
+        "C": "Only colour distinguishes life",
+        "D": "Taxonomic ranks define life"
+      },
+      "correct_answer": "B",
+      "explanation": "Growth can occur in crystals and reproduction is not universal, so multiple features are considered."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "Which of the following changes a broad grouping into a more specific grouping as you move down the hierarchy?",
+      "options": {
+        "A": "Kingdom to species",
+        "B": "Species to kingdom",
+        "C": "Genus to kingdom",
+        "D": "Family to phylum"
+      },
+      "correct_answer": "A",
+      "explanation": "Moving down from kingdom toward species gives increasingly specific categories."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "A plant is identified by choosing between paired contrasting character statements. What is the method being used?",
+      "options": {
+        "A": "Taxonomic key",
+        "B": "Monograph",
+        "C": "Flora only",
+        "D": "Zoological observation"
+      },
+      "correct_answer": "A",
+      "explanation": "The taxonomic key uses contrasting characters in couplets."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "Which option contains only examples of taxonomical aids or taxonomic reference resources?",
+      "options": {
+        "A": "Herbarium, botanical garden, museum, key",
+        "B": "Anabolism, catabolism, respiration, growth",
+        "C": "Genus, species, metabolism, response",
+        "D": "Mule, crystal, Mimosa, cell"
+      },
+      "correct_answer": "A",
+      "explanation": "Herbaria, botanical gardens, museums and keys are taxonomical aids."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "Which statement is most accurate about the word 'species' in the chapter's hierarchy?",
+      "options": {
+        "A": "It is the most specific principal category listed",
+        "B": "It is broader than kingdom",
+        "C": "It is a taxonomical aid",
+        "D": "It is the same as a couplet"
+      },
+      "correct_answer": "A",
+      "explanation": "Species is the most specific principal rank in the hierarchy presented."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "If a scientific name is printed as 'mangifera Indica', what is the formatting error?",
+      "options": {
+        "A": "Both words are too short",
+        "B": "Genus is lowercase and specific epithet is capitalised",
+        "C": "The name has two parts",
+        "D": "It is a binomial"
+      },
+      "correct_answer": "B",
+      "explanation": "The genus should be capitalised and the specific epithet lowercase: Mangifera indica."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "Which of the following names follows the genus-capital/specific-epithet-lowercase convention?",
+      "options": {
+        "A": "Musca Domestica",
+        "B": "musca domestica",
+        "C": "Musca domestica",
+        "D": "MUSCA DOMESTICA"
+      },
+      "correct_answer": "C",
+      "explanation": "Musca is capitalised and domestica is lowercase."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "Which of the following correctly identifies the taxonomic level above Order?",
+      "options": {
+        "A": "Family",
+        "B": "Class",
+        "C": "Genus",
+        "D": "Species"
+      },
+      "correct_answer": "B",
+      "explanation": "Class is above order; the sequence is Class, Order, Family, Genus, Species."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "Which level sits between Phylum/Division and Order?",
+      "options": {
+        "A": "Family",
+        "B": "Class",
+        "C": "Genus",
+        "D": "Species"
+      },
+      "correct_answer": "B",
+      "explanation": "Class follows phylum/division and precedes order."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "Which level sits between Order and Genus?",
+      "options": {
+        "A": "Family",
+        "B": "Kingdom",
+        "C": "Phylum",
+        "D": "Species"
+      },
+      "correct_answer": "A",
+      "explanation": "Family is between order and genus."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "A herbarium differs from a botanical garden because a herbarium contains:",
+      "options": {
+        "A": "Preserved plant specimens rather than a collection of living plants",
+        "B": "Only animals",
+        "C": "Only living trees",
+        "D": "Only evolutionary diagrams"
+      },
+      "correct_answer": "A",
+      "explanation": "Herbaria preserve plant specimens; botanical gardens maintain living plants."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "A zoological park differs from a museum because a zoological park primarily contains:",
+      "options": {
+        "A": "Living animals for observation",
+        "B": "Only preserved specimens",
+        "C": "Dried plants",
+        "D": "Taxonomic catalogues"
+      },
+      "correct_answer": "A",
+      "explanation": "Zoological parks allow study of living animals."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "Which is the most appropriate role for a flora?",
+      "options": {
+        "A": "Documenting plants of a region",
+        "B": "Displaying living wild animals",
+        "C": "Providing a pair of contrasting statements",
+        "D": "Preserving insects by pinning"
+      },
+      "correct_answer": "A",
+      "explanation": "Flora records the plants of a particular region."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "A guide helps a user determine the identity and name of a species in a region. Which aid is most directly relevant?",
+      "options": {
+        "A": "Manual",
+        "B": "Zoological park",
+        "C": "Museum stuffing",
+        "D": "Cellular organisation"
+      },
+      "correct_answer": "A",
+      "explanation": "A manual supports identification and naming of species."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "Which term refers to one statement within a taxonomic key?",
+      "options": {
+        "A": "Lead",
+        "B": "Couplet",
+        "C": "Monograph",
+        "D": "Taxon"
+      },
+      "correct_answer": "A",
+      "explanation": "A lead is an individual statement; a couplet is a pair."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "Which term refers to the pair of alternatives within a taxonomic key?",
+      "options": {
+        "A": "Lead",
+        "B": "Couplet",
+        "C": "Family",
+        "D": "Flora"
+      },
+      "correct_answer": "B",
+      "explanation": "A couplet contains two contrasting statements."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "Which option best distinguishes a monograph from a catalogue?",
+      "options": {
+        "A": "Monograph gives a detailed account of one taxon; catalogue is an organised list",
+        "B": "Monograph is living plants; catalogue is preserved animals",
+        "C": "They are identical terms",
+        "D": "Catalogue uses only contrasting character pairs"
+      },
+      "correct_answer": "A",
+      "explanation": "These reference resources have different scopes and functions."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "Which of the following is an incorrect association?",
+      "options": {
+        "A": "Metabolism—chemical reactions",
+        "B": "Anabolism—synthesis",
+        "C": "Catabolism—breakdown",
+        "D": "Nomenclature—grouping by similarities"
+      },
+      "correct_answer": "D",
+      "explanation": "Grouping by similarities and differences is classification; nomenclature is naming."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "Which is the correct association?",
+      "options": {
+        "A": "Classification—grouping organisms",
+        "B": "Classification—assigning scientific names",
+        "C": "Identification—preserving specimens",
+        "D": "Systematics—only the study of one herbarium sheet"
+      },
+      "correct_answer": "A",
+      "explanation": "Classification groups organisms; nomenclature names them; identification establishes identity."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "Which option best explains the relationship between taxonomy and taxonomical aids?",
+      "options": {
+        "A": "Taxonomy is supported by aids such as keys, herbaria and manuals",
+        "B": "Taxonomy is the same as a zoological park",
+        "C": "Aids are taxonomic ranks",
+        "D": "Aids remove the need for identification"
+      },
+      "correct_answer": "A",
+      "explanation": "Taxonomical aids provide material and references to support identification and study."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "Which of these is a direct example of response to stimuli?",
+      "options": {
+        "A": "Mimosa leaves fold after touch",
+        "B": "A crystal grows by deposition",
+        "C": "A name is italicised",
+        "D": "A family contains genera"
+      },
+      "correct_answer": "A",
+      "explanation": "Mimosa leaf folding is a response to touch."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "Which statement about crystals is relevant to the definition of life?",
+      "options": {
+        "A": "Crystal growth demonstrates that growth alone is not sufficient to define life",
+        "B": "Crystals reproduce like all organisms",
+        "C": "Crystals have cellular organisation",
+        "D": "Crystals perform organismal metabolism"
+      },
+      "correct_answer": "A",
+      "explanation": "Crystals can grow through external deposition, which is why growth alone is not decisive."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "Which is the best interpretation of 'living growth from within' in the chapter?",
+      "options": {
+        "A": "Internal biological processes contribute to growth",
+        "B": "Every non-living object grows from within",
+        "C": "Growth is the same as locomotion",
+        "D": "Growth is a taxonomic category"
+      },
+      "correct_answer": "A",
+      "explanation": "Living growth is associated with internal processes rather than simple external deposition."
+    },
+    {
+      "chapter_name": "The Living World",
+      "chapter_no": 1,
+      "question": "Which of the following statements is false?",
+      "options": {
+        "A": "A monograph treats one taxon in detail",
+        "B": "A flora concerns plants of a region",
+        "C": "A couplet is a pair of contrasting statements",
+        "D": "A lead is a pair of contrasting statements"
+      },
+      "correct_answer": "D",
+      "explanation": "A lead is one statement; a couplet is the pair."
+    }
+  ]
+}
